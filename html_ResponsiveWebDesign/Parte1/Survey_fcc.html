@@ -1,0 +1,55 @@
+<!--PARTE DE HTML-->
+<h1 id="title">FreeCodeCamp Survey</h1>
+
+<p id="description">should not be empty</p>
+
+<form id="survey-form">
+  <div class="form-control">
+  <label id="name-label">Name:
+  <input id="name" type="text" placeholder="Name" required />
+  </label>
+  </div>
+
+  <div class="form-control">
+  <label id="email-label">Email:
+  <input id="email" type="email" placeholder="Email" required />
+  </label>
+  </div>
+
+  <div class="form-control">
+  <label id="number-label">Age:
+  <input id="number" type="number" placeholder="Age" min="0" max="200" required/>
+  </label>
+  </div>
+  
+  <div class="form-control">
+  <select id="dropdown">
+  <option>Student</option>
+  <option>Tech-related field</option>
+  <option>Nontech-related field</option>
+  </select>
+  </div>
+
+  <div class="form-control">
+  <input type="radio" name="radio-group" value="windows" />
+  <input type="radio" name="radio-group" value="macos" />
+  <input type="radio" name="radio-group" value="linux" />
+  </div>
+
+  <div class="form-control">
+  <input type="checkbox" value="cost" />
+  <input type="checkbox" value="coding" />
+  <input type="checkbox" value="apps" />
+  <input type="checkbox" value="gamin" />
+  <input type="checkbox" value="security" />
+  </div>
+
+
+<div class="form-control">
+  <textarea></textarea>
+</div>
+
+<div class="form-control">
+  <button id="submit" type="submit">Submit</button>
+  </div>
+</form>
