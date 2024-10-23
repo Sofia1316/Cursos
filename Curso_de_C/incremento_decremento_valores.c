@@ -18,34 +18,34 @@ Los operadores como +=, -=, *=, ++ y -- se conocen como operadores de asignació
 int value = 1;
 
 value = value + 1;
-Console.WriteLine("First increment: " + value);
+printf("First increment: " + value);
 
 //Usamos value += 1; pero también vale un int (o una variable) para incrementar esa cantidad.
 value += 1;
-Console.WriteLine("Second increment: " + value);
+printf("Second increment: " + value);
 
 value++;
-Console.WriteLine("Third increment: " + value);
+printf("Third increment: " + value);
 
 value = value - 1;
-Console.WriteLine("First decrement: " + value);
+printf("First decrement: " + value);
 
 value -= 1;
-Console.WriteLine("Second decrement: " + value);
+printf("Second decrement: " + value);
 
 value--;
-Console.WriteLine("Third decrement: " + value);
+printf("Third decrement: " + value);
 
 //EJEMPLO 2:
 
 int value = 1;
 value++;
-Console.WriteLine("First: " + value);
-Console.WriteLine($"Second: {value++}");
+printf("First: " + value);
+printf($"Second: {value++}");
 	//Se recupera el valor actual de la variable value y se usa en la operación de interpolación de cadenas.
 	//Se incrementa el valor.
-Console.WriteLine("Third: " + value);
-Console.WriteLine("Fourth: " + (++value));
+printf("Third: " + value);
+printf("Fourth: " + (++value));
 /* 
 Resultado:
 First: 2
@@ -57,7 +57,7 @@ Fourth: 4
 //EJEMPLO CELSIUS:
 int fahrenheit = 94;
 decimal celsius = (fahrenheit - 32m) * (5m / 9m);
-Console.WriteLine("The temperature is " + celsius + " Celsius.");
+printf("The temperature is " + celsius + " Celsius.");
 /* resultado
 The temperature is 34,444444444444444444444444447 Celsius.
 */
