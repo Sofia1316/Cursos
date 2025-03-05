@@ -30,3 +30,15 @@ edad = 12
 print(f"Tienes {edad} años")
 
 # PROYECTO 2
+print("Bienvenido a mi calculadora!")
+
+monto = float(input("¿Cuál es el monto total? "))
+propina = int(input("¿Qué porcentaje quieres dar de propina? 10, 12, 15 "))
+comensales = int(input("¿Cuántas personas participan en la propina? "))
+
+porcentaje_propina = propina / 100
+total_propina = monto * porcentaje_propina
+total_monto = monto + total_propina
+porPersona = total_monto / comensales
+final = round(porPersona, 2)
+print(f"Cada uno deberá de pagar {final} euros")
