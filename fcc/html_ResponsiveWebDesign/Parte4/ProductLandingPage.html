@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Producto XYZ</title>
+  <link rel="stylesheet" href="ProductLandingPage.css" />
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo Producto" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#caracteristicas">Características</a>
+      <a class="nav-link" href="#como-funciona">Cómo Funciona</a>
+      <a class="nav-link" href="#precio">Precio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Descubre el poder de XYZ</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input 
+          id="email" 
+          type="email" 
+          name="email" 
+          placeholder="Ingresa tu correo electrónico" 
+          required 
+        />
+        <input id="submit" type="submit" value="Comenzar" />
+      </form>
+    </section>
+
+    <section id="caracteristicas">
+      <h2>Características</h2>
+      <div class="features">
+        <div>🔋 Batería de larga duración</div>
+        <div>🌐 Conectividad global</div>
+        <div>⚡ Rápida velocidad de carga</div>
+      </div>
+    </section>
+
+    <section id="como-funciona">
+      <h2>Cómo Funciona</h2>
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="Video del producto"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="precio">
+      <h2>Precios</h2>
+      <div class="pricing">
+        <div class="card">
+          <h3>Básico</h3>
+          <p>$9.99/mes</p>
+        </div>
+        <div class="card">
+          <h3>Pro</h3>
+          <p>$19.99/mes</p>
+        </div>
+        <div class="card">
+          <h3>Empresa</h3>
+          <p>$49.99/mes</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
