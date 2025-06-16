@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="TechnicalDocuPage.css"/>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Development Docs</header>
+      <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+      <a class="nav-link" href="#CSS_Styling">CSS Styling</a>
+      <a class="nav-link" href="#JavaScript_Fundamentals">JavaScript Fundamentals</a>
+      <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+      <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="HTML_Basics">
+        <header>HTML Basics</header>
+        <p>HTML stands for HyperText Markup Language.</p>
+        <p>It structures the web content using elements and tags.</p>
+        <code>&lt;!DOCTYPE html&gt;</code>
+        <code>&lt;html&gt;&lt;/html&gt;</code>
+        <ul>
+          <li>Headings: &lt;h1&gt; to &lt;h6&gt;</li>
+          <li>Paragraphs: &lt;p&gt;</li>
+          <li>Links: &lt;a href&gt;</li>
+        </ul>
+        <p>HTML5 introduced semantic tags like &lt;main&gt;, &lt;article&gt;, &lt;section&gt;.</p>
+        <p>Tags can have attributes to define behavior or styling hooks.</p>
+      </section>
+
+      <section class="main-section" id="CSS_Styling">
+        <header>CSS Styling</header>
+        <p>CSS stands for Cascading Style Sheets.</p>
+        <p>It controls the appearance of HTML elements.</p>
+        <code>body { font-family: Arial; }</code>
+        <code>h1 { color: blue; }</code>
+        <ul>
+          <li>Selectors</li>
+          <li>Properties</li>
+          <li>Values</li>
+        </ul>
+        <p>CSS can be internal, external, or inline.</p>
+        <p>Use classes and IDs to target specific elements.</p>
+      </section>
+
+      <section class="main-section" id="JavaScript_Fundamentals">
+        <header>JavaScript Fundamentals</header>
+        <p>JavaScript adds interactivity to web pages.</p>
+        <p>It is a client-side scripting language.</p>
+        <code>let x = 10;</code>
+        <code>function greet() { alert("Hello!"); }</code>
+        <ul>
+          <li>Variables</li>
+          <li>Functions</li>
+          <li>Events</li>
+        </ul>
+        <p>Modern JavaScript uses ES6+ features like arrow functions and let/const.</p>
+        <p>It integrates with HTML and CSS using the DOM.</p>
+      </section>
+
+      <section class="main-section" id="DOM_Manipulation">
+        <header>DOM Manipulation</header>
+        <p>The DOM is a programming interface for web documents.</p>
+        <p>It represents the page so programs can change the structure, style, and content.</p>
+        <code>document.getElementById("demo").innerText = "Hi";</code>
+        <ul>
+          <li>Access elements</li>
+          <li>Change content</li>
+          <li>React to events</li>
+        </ul>
+        <p>Use querySelector for more flexibility.</p>
+        <p>Event listeners handle user interactions.</p>
+      </section>
+
+      <section class="main-section" id="Responsive_Design">
+        <header>Responsive Design</header>
+        <p>Responsive Design ensures web content looks good on all devices.</p>
+        <p>Media queries adjust styles for different screen sizes.</p>
+        <code>@media (max-width: 600px) { ... }</code>
+        <ul>
+          <li>Flexible grids</li>
+          <li>Flexible images</li>
+          <li>Media queries</li>
+        </ul>
+        <p>Use relative units like %, em, and rem.</p>
+        <p>Mobile-first approach is preferred.</p>
+      </section>
+    </main>
+  </body>
+</html>
